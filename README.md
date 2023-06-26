@@ -5,7 +5,7 @@ Much of natural language processing is concerned with measuring how similar two 
 string—let’s say graffe–and we want to know what the user meant. The user probably intended a word that is similar to graffe. Among candidate similar words,
 the word giraffe, which differs by only one letter from graffe, seems intuitively to be more similar than, say grail or graf, which differ in more letters.
 
-Edit distance gives us a way to quantify both of these intuitions about string simminimum edit distance ilarity. More formally, the minimum edit distance between two strings is defined
+Edit distance gives us a way to quantify both of these intuitions about string minimum edit distance similarity. More formally, the minimum edit distance between two strings is defined
 as the minimum number of editing operations (operations like insertion, deletion,
 substitution) needed to transform one string into another.
 
