@@ -10,5 +10,5 @@ as the minimum number of editing operations (operations like insertion, deletion
 substitution) needed to transform one string into another.
 
 The program calculates the minimum number of edits(insertions, deletions and substitutions between two strings using Lavenshtein's approach.
-We assume the version of Levenshtein distance in which the insertions and deletions each have a cost of 1 (ins-cost(·) = del-cost(·) = 1), and substitutions have a
+I assume the version of Levenshtein distance in which the insertions and deletions each have a cost of 1 (ins-cost(·) = del-cost(·) = 1), and substitutions have a
 cost of 2 (except substitution of identical letters have zero cost).
